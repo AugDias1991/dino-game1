@@ -1,0 +1,53 @@
+body {
+  background: #fafafa;
+  bottom: 0px;
+  background-image: url(nuvens3.png);
+  background-repeat: repeat-x;
+  animation: slideright 600s infinite linear;
+  -webkit-animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 200px;
+}
+
+
+.dino {
+  position: absolute;
+  bottom: 0;
+  background-image: url(megaanimacao.gif);
+  width: 60px;
+  height: 51px;
+}
+
+.cactus {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  bottom: 0;
+  background-image: url(mamutgif.gif);
+}
+
+.game-over {
+  text-align: center;
+  color: #666;
+  margin: 50px 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@keyframes slideright {
+  from {
+      background-position: 70000%;
+  }
+  to {
+      background-position: 0%;
+  }
+}
+
+.background {
+  position: absolute;
+  bottom: 0px;
+  background-image: url(background.png);
+  background-repeat: repeat-x;
+  animation: slideright 600s infinite linear;
+  -webkit-animation: slideright 600s infinite linear;
+  width: 100%;
+  height: 200px;
+}
